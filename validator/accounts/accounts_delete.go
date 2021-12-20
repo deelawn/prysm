@@ -7,14 +7,14 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/cmd/validator/flags"
-	"github.com/prysmaticlabs/prysm/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/io/prompt"
-	ethpbservice "github.com/prysmaticlabs/prysm/proto/eth/service"
-	"github.com/prysmaticlabs/prysm/validator/accounts/iface"
-	"github.com/prysmaticlabs/prysm/validator/accounts/userprompt"
-	"github.com/prysmaticlabs/prysm/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/validator/keymanager"
+	"github.com/prysmaticlabs/prysm/v2/cmd/validator/flags"
+	"github.com/prysmaticlabs/prysm/v2/encoding/bytesutil"
+	"github.com/prysmaticlabs/prysm/v2/io/prompt"
+	ethpbservice "github.com/prysmaticlabs/prysm/v2/proto/eth/service"
+	"github.com/prysmaticlabs/prysm/v2/validator/accounts/iface"
+	"github.com/prysmaticlabs/prysm/v2/validator/accounts/userprompt"
+	"github.com/prysmaticlabs/prysm/v2/validator/accounts/wallet"
+	"github.com/prysmaticlabs/prysm/v2/validator/keymanager"
 	"github.com/urfave/cli/v2"
 )
 
@@ -95,7 +95,7 @@ func DeleteAccountCli(cliCtx *cli.Context) error {
 	log.WithField("publicKeys", allAccountStr).Warn(
 		"Attempted to delete accounts. IMPORTANT: please run `validator accounts list` to ensure " +
 			"the public keys are indeed deleted. If they are still there, please file an issue at " +
-			"https://github.com/prysmaticlabs/prysm/issues/new")
+			"https://github.com/prysmaticlabs/prysm/v2/issues/new")
 	return nil
 }
 

@@ -8,11 +8,11 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	types "github.com/prysmaticlabs/eth2-types"
-	"github.com/prysmaticlabs/prysm/cmd"
-	"github.com/prysmaticlabs/prysm/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/config/params"
-	"github.com/prysmaticlabs/prysm/testing/assert"
-	"github.com/prysmaticlabs/prysm/testing/require"
+	"github.com/prysmaticlabs/prysm/v2/cmd"
+	"github.com/prysmaticlabs/prysm/v2/cmd/beacon-chain/flags"
+	"github.com/prysmaticlabs/prysm/v2/config/params"
+	"github.com/prysmaticlabs/prysm/v2/testing/assert"
+	"github.com/prysmaticlabs/prysm/v2/testing/require"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 	"github.com/urfave/cli/v2"
 )

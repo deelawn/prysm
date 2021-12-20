@@ -3,9 +3,9 @@ package monitor
 import (
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/beacon-chain/state"
-	ethpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1/block"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state"
+	ethpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
+	"github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1/block"
 	"github.com/sirupsen/logrus"
 )
 

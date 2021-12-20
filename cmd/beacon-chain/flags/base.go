@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/config/params"
+	"github.com/prysmaticlabs/prysm/v2/config/params"
 	"github.com/urfave/cli/v2"
 )
 

@@ -1,9 +1,9 @@
 package util
 
 import (
-	"github.com/prysmaticlabs/prysm/config/params"
-	"github.com/prysmaticlabs/prysm/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
+	"github.com/prysmaticlabs/prysm/v2/config/params"
+	"github.com/prysmaticlabs/prysm/v2/encoding/bytesutil"
+	ethpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
 )
 
 // HydrateSyncCommittee hydrates the provided sync committee message.

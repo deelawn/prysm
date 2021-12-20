@@ -1,8 +1,8 @@
 package powchaincmd
 
 import (
-	"github.com/prysmaticlabs/prysm/beacon-chain/powchain"
-	"github.com/prysmaticlabs/prysm/cmd/beacon-chain/flags"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/powchain"
+	"github.com/prysmaticlabs/prysm/v2/cmd/beacon-chain/flags"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

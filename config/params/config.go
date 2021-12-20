@@ -6,7 +6,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	types "github.com/prysmaticlabs/eth2-types"
-	"github.com/prysmaticlabs/prysm/encoding/bytesutil"
+	"github.com/prysmaticlabs/prysm/v2/encoding/bytesutil"
 )
 
 // BeaconChainConfig contains constant configs for node to participate in beacon chain.

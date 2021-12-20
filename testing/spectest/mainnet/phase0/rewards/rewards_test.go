@@ -3,8 +3,8 @@ package rewards
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/config/features"
-	"github.com/prysmaticlabs/prysm/testing/spectest/shared/phase0/rewards"
+	"github.com/prysmaticlabs/prysm/v2/config/features"
+	"github.com/prysmaticlabs/prysm/v2/testing/spectest/shared/phase0/rewards"
 )
 
 func TestMain(m *testing.M) {

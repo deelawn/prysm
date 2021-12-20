@@ -1,3 +1,4 @@
+//go:build !libfuzzer
 // +build !libfuzzer
 
 package cache
@@ -13,10 +14,10 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	types "github.com/prysmaticlabs/eth2-types"
-	lruwrpr "github.com/prysmaticlabs/prysm/cache/lru"
-	"github.com/prysmaticlabs/prysm/config/params"
-	"github.com/prysmaticlabs/prysm/container/slice"
-	mathutil "github.com/prysmaticlabs/prysm/math"
+	lruwrpr "github.com/prysmaticlabs/prysm/v2/cache/lru"
+	"github.com/prysmaticlabs/prysm/v2/config/params"
+	"github.com/prysmaticlabs/prysm/v2/container/slice"
+	mathutil "github.com/prysmaticlabs/prysm/v2/math"
 )
 
 var (

@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/crypto/bls"
+	"github.com/prysmaticlabs/prysm/v2/crypto/bls"
 )
 
 const (

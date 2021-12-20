@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/encoding/bytesutil"
-	ethpbservice "github.com/prysmaticlabs/prysm/proto/eth/service"
+	"github.com/prysmaticlabs/prysm/v2/encoding/bytesutil"
+	ethpbservice "github.com/prysmaticlabs/prysm/v2/proto/eth/service"
 	"github.com/sirupsen/logrus"
 )
 

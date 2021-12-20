@@ -4,9 +4,9 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/prysmaticlabs/prysm/api/grpc"
-	"github.com/prysmaticlabs/prysm/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/beacon-chain/sync"
+	"github.com/prysmaticlabs/prysm/v2/api/grpc"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/blockchain"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/sync"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

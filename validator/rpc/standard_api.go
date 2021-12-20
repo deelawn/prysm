@@ -7,12 +7,12 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/prysmaticlabs/prysm/encoding/bytesutil"
-	ethpbservice "github.com/prysmaticlabs/prysm/proto/eth/service"
-	"github.com/prysmaticlabs/prysm/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/validator/keymanager/derived"
-	slashingprotection "github.com/prysmaticlabs/prysm/validator/slashing-protection-history"
-	"github.com/prysmaticlabs/prysm/validator/slashing-protection-history/format"
+	"github.com/prysmaticlabs/prysm/v2/encoding/bytesutil"
+	ethpbservice "github.com/prysmaticlabs/prysm/v2/proto/eth/service"
+	"github.com/prysmaticlabs/prysm/v2/validator/keymanager"
+	"github.com/prysmaticlabs/prysm/v2/validator/keymanager/derived"
+	slashingprotection "github.com/prysmaticlabs/prysm/v2/validator/slashing-protection-history"
+	"github.com/prysmaticlabs/prysm/v2/validator/slashing-protection-history/format"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

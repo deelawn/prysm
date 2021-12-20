@@ -4,7 +4,7 @@ import (
 	"time"
 
 	types "github.com/prysmaticlabs/eth2-types"
-	"github.com/prysmaticlabs/prysm/config/params"
+	"github.com/prysmaticlabs/prysm/v2/config/params"
 )
 
 // MockGenesisTimeFetcher is a fake implementation of the blockchain.TimeFetcher

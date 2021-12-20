@@ -21,7 +21,7 @@ go_library(
         "state_balance_cache.go",
         "weak_subjectivity_checks.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/beacon-chain/blockchain",
+    importpath = "github.com/prysmaticlabs/prysm/v2/beacon-chain/blockchain",
     visibility = [
         "//beacon-chain:__subpackages__",
         "//cmd/beacon-chain:__subpackages__",

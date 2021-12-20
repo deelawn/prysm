@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1/wrapper"
-	"github.com/prysmaticlabs/prysm/testing/require"
-	"github.com/prysmaticlabs/prysm/testing/util"
+	"github.com/prysmaticlabs/prysm/v2/encoding/bytesutil"
+	ethpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
+	"github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1/wrapper"
+	"github.com/prysmaticlabs/prysm/v2/testing/require"
+	"github.com/prysmaticlabs/prysm/v2/testing/util"
 	"github.com/sirupsen/logrus"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )

@@ -1,7 +1,7 @@
 package v3
 
 import (
-	ethpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
+	ethpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
 )
 
 // LatestExecutionPayloadHeader of the beacon state.

@@ -1,3 +1,4 @@
+//go:build ((linux && amd64) || (linux && arm64) || (darwin && amd64) || (darwin && arm64) || (windows && amd64)) && !blst_disabled
 // +build linux,amd64 linux,arm64 darwin,amd64 darwin,arm64 windows,amd64
 // +build !blst_disabled
 
@@ -8,9 +9,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/crypto/bls/blst"
-	"github.com/prysmaticlabs/prysm/testing/assert"
-	"github.com/prysmaticlabs/prysm/testing/require"
+	"github.com/prysmaticlabs/prysm/v2/crypto/bls/blst"
+	"github.com/prysmaticlabs/prysm/v2/testing/assert"
+	"github.com/prysmaticlabs/prysm/v2/testing/require"
 )
 
 func TestPublicKeyFromBytes(t *testing.T) {

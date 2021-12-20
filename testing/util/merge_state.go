@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state"
-	v3 "github.com/prysmaticlabs/prysm/beacon-chain/state/v3"
-	"github.com/prysmaticlabs/prysm/config/params"
-	"github.com/prysmaticlabs/prysm/crypto/bls"
-	ethpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/core/helpers"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state"
+	v3 "github.com/prysmaticlabs/prysm/v2/beacon-chain/state/v3"
+	"github.com/prysmaticlabs/prysm/v2/config/params"
+	"github.com/prysmaticlabs/prysm/v2/crypto/bls"
+	ethpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
 )
 
 // DeterministicGenesisStateMerge returns a genesis state in Merge format made using the deterministic deposits.

@@ -3,11 +3,11 @@ package v3
 import (
 	"github.com/pkg/errors"
 	types "github.com/prysmaticlabs/eth2-types"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state/stateutil"
-	stateTypes "github.com/prysmaticlabs/prysm/beacon-chain/state/types"
-	"github.com/prysmaticlabs/prysm/config/features"
-	"github.com/prysmaticlabs/prysm/crypto/hash"
-	ethpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state/stateutil"
+	stateTypes "github.com/prysmaticlabs/prysm/v2/beacon-chain/state/types"
+	"github.com/prysmaticlabs/prysm/v2/config/features"
+	"github.com/prysmaticlabs/prysm/v2/crypto/hash"
+	ethpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
 	"google.golang.org/protobuf/proto"
 )
 

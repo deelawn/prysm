@@ -4,12 +4,12 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/beacon-chain/core/transition/interop"
-	"github.com/prysmaticlabs/prysm/config/features"
-	ethpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1/block"
-	"github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1/wrapper"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/core/helpers"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/core/transition/interop"
+	"github.com/prysmaticlabs/prysm/v2/config/features"
+	ethpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
+	"github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1/block"
+	"github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1/wrapper"
 	"google.golang.org/protobuf/proto"
 )
 

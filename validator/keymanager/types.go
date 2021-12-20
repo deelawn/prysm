@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/async/event"
-	"github.com/prysmaticlabs/prysm/crypto/bls"
-	ethpbservice "github.com/prysmaticlabs/prysm/proto/eth/service"
-	validatorpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1/validator-client"
+	"github.com/prysmaticlabs/prysm/v2/async/event"
+	"github.com/prysmaticlabs/prysm/v2/crypto/bls"
+	ethpbservice "github.com/prysmaticlabs/prysm/v2/proto/eth/service"
+	validatorpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1/validator-client"
 )
 
 // IKeymanager defines a general keymanager interface for Prysm wallets.

@@ -1,9 +1,10 @@
-// +build  blst_disabled libfuzzer
+//go:build blst_disabled || libfuzzer
+// +build blst_disabled libfuzzer
 
 package blst
 
 import (
-	"github.com/prysmaticlabs/prysm/crypto/bls/common"
+	"github.com/prysmaticlabs/prysm/v2/crypto/bls/common"
 )
 
 // This stub file exists until build issues can be resolved for libfuzz.

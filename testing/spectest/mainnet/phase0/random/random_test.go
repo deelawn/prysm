@@ -3,8 +3,8 @@ package random
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/config/features"
-	"github.com/prysmaticlabs/prysm/testing/spectest/shared/phase0/sanity"
+	"github.com/prysmaticlabs/prysm/v2/config/features"
+	"github.com/prysmaticlabs/prysm/v2/testing/spectest/shared/phase0/sanity"
 )
 
 func TestMain(m *testing.M) {

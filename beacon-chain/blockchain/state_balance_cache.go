@@ -5,10 +5,10 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/prysmaticlabs/prysm/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/beacon-chain/core/time"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state/stategen"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/core/helpers"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/core/time"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state/stategen"
 )
 
 var errNilStateFromStategen = errors.New("justified state can't be nil")

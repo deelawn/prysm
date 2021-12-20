@@ -7,8 +7,8 @@ import (
 
 	"github.com/pkg/errors"
 	types "github.com/prysmaticlabs/eth2-types"
-	slashertypes "github.com/prysmaticlabs/prysm/beacon-chain/slasher/types"
-	ethpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
+	slashertypes "github.com/prysmaticlabs/prysm/v2/beacon-chain/slasher/types"
+	ethpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
 	"github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
 )

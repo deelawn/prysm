@@ -4,14 +4,14 @@ import (
 	"testing"
 
 	types "github.com/prysmaticlabs/eth2-types"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state/stateutil"
-	"github.com/prysmaticlabs/prysm/config/params"
-	"github.com/prysmaticlabs/prysm/crypto/hash"
-	"github.com/prysmaticlabs/prysm/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/testing/assert"
-	"github.com/prysmaticlabs/prysm/testing/require"
-	"github.com/prysmaticlabs/prysm/testing/util"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state/stateutil"
+	"github.com/prysmaticlabs/prysm/v2/config/params"
+	"github.com/prysmaticlabs/prysm/v2/crypto/hash"
+	"github.com/prysmaticlabs/prysm/v2/encoding/bytesutil"
+	ethpb "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
+	"github.com/prysmaticlabs/prysm/v2/testing/assert"
+	"github.com/prysmaticlabs/prysm/v2/testing/require"
+	"github.com/prysmaticlabs/prysm/v2/testing/util"
 )
 
 func TestReturnTrieLayer_OK(t *testing.T) {

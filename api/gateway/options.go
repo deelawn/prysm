@@ -2,7 +2,7 @@ package gateway
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/prysmaticlabs/prysm/api/gateway/apimiddleware"
+	"github.com/prysmaticlabs/prysm/v2/api/gateway/apimiddleware"
 )
 
 type Option func(g *Gateway) error

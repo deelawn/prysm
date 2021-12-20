@@ -3,8 +3,8 @@ package epoch_processing
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/config/features"
-	"github.com/prysmaticlabs/prysm/config/params"
+	"github.com/prysmaticlabs/prysm/v2/config/features"
+	"github.com/prysmaticlabs/prysm/v2/config/params"
 )
 
 func TestMain(m *testing.M) {

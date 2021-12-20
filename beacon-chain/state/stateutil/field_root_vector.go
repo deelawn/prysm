@@ -2,8 +2,8 @@ package stateutil
 
 import (
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/crypto/hash"
-	"github.com/prysmaticlabs/prysm/encoding/ssz"
+	"github.com/prysmaticlabs/prysm/v2/crypto/hash"
+	"github.com/prysmaticlabs/prysm/v2/encoding/ssz"
 )
 
 func (h *stateRootHasher) arraysRoot(input [][]byte, length uint64, fieldName string) ([32]byte, error) {

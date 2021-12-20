@@ -4,12 +4,12 @@ import (
 	"testing"
 
 	"github.com/prysmaticlabs/go-bitfield"
-	ethpbv1 "github.com/prysmaticlabs/prysm/proto/eth/v1"
-	ethpbv2 "github.com/prysmaticlabs/prysm/proto/eth/v2"
-	ethpbalpha "github.com/prysmaticlabs/prysm/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/testing/assert"
-	"github.com/prysmaticlabs/prysm/testing/require"
-	"github.com/prysmaticlabs/prysm/testing/util"
+	ethpbv1 "github.com/prysmaticlabs/prysm/v2/proto/eth/v1"
+	ethpbv2 "github.com/prysmaticlabs/prysm/v2/proto/eth/v2"
+	ethpbalpha "github.com/prysmaticlabs/prysm/v2/proto/prysm/v1alpha1"
+	"github.com/prysmaticlabs/prysm/v2/testing/assert"
+	"github.com/prysmaticlabs/prysm/v2/testing/require"
+	"github.com/prysmaticlabs/prysm/v2/testing/util"
 )
 
 func TestV1Alpha1SignedContributionAndProofToV2(t *testing.T) {

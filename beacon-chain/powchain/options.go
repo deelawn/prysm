@@ -2,12 +2,12 @@ package powchain
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/prysmaticlabs/prysm/beacon-chain/cache/depositcache"
-	statefeed "github.com/prysmaticlabs/prysm/beacon-chain/core/feed/state"
-	"github.com/prysmaticlabs/prysm/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state/stategen"
-	"github.com/prysmaticlabs/prysm/network"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/cache/depositcache"
+	statefeed "github.com/prysmaticlabs/prysm/v2/beacon-chain/core/feed/state"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/db"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state/stategen"
+	"github.com/prysmaticlabs/prysm/v2/network"
 )
 
 type Option func(s *Service) error

@@ -1,3 +1,4 @@
+//go:build !libfuzzer
 // +build !libfuzzer
 
 package cache
@@ -8,8 +9,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	types "github.com/prysmaticlabs/eth2-types"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/encoding/bytesutil"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state"
+	"github.com/prysmaticlabs/prysm/v2/encoding/bytesutil"
 	"k8s.io/client-go/tools/cache"
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/config/params"
-	"github.com/prysmaticlabs/prysm/testing/require"
+	"github.com/prysmaticlabs/prysm/v2/config/params"
+	"github.com/prysmaticlabs/prysm/v2/testing/require"
 )
 
 func TestDeterministicGenesisStateMerge(t *testing.T) {

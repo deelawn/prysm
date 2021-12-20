@@ -1,17 +1,17 @@
 package sync
 
 import (
-	"github.com/prysmaticlabs/prysm/async/event"
-	blockfeed "github.com/prysmaticlabs/prysm/beacon-chain/core/feed/block"
-	"github.com/prysmaticlabs/prysm/beacon-chain/core/feed/operation"
-	statefeed "github.com/prysmaticlabs/prysm/beacon-chain/core/feed/state"
-	"github.com/prysmaticlabs/prysm/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/beacon-chain/operations/attestations"
-	"github.com/prysmaticlabs/prysm/beacon-chain/operations/slashings"
-	"github.com/prysmaticlabs/prysm/beacon-chain/operations/synccommittee"
-	"github.com/prysmaticlabs/prysm/beacon-chain/operations/voluntaryexits"
-	"github.com/prysmaticlabs/prysm/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state/stategen"
+	"github.com/prysmaticlabs/prysm/v2/async/event"
+	blockfeed "github.com/prysmaticlabs/prysm/v2/beacon-chain/core/feed/block"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/core/feed/operation"
+	statefeed "github.com/prysmaticlabs/prysm/v2/beacon-chain/core/feed/state"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/db"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/operations/attestations"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/operations/slashings"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/operations/synccommittee"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/operations/voluntaryexits"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/p2p"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state/stategen"
 )
 
 type Option func(s *Service) error

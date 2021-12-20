@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	types "github.com/prysmaticlabs/eth2-types"
-	"github.com/prysmaticlabs/prysm/testing/assert"
-	"github.com/prysmaticlabs/prysm/testing/require"
-	dbtest "github.com/prysmaticlabs/prysm/validator/db/testing"
-	"github.com/prysmaticlabs/prysm/validator/slashing-protection-history/format"
+	"github.com/prysmaticlabs/prysm/v2/testing/assert"
+	"github.com/prysmaticlabs/prysm/v2/testing/require"
+	dbtest "github.com/prysmaticlabs/prysm/v2/validator/db/testing"
+	"github.com/prysmaticlabs/prysm/v2/validator/slashing-protection-history/format"
 )
 
 func TestExportStandardProtectionJSON_EmptyGenesisRoot(t *testing.T) {

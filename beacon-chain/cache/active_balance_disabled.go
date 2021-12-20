@@ -1,3 +1,4 @@
+//go:build libfuzzer
 // +build libfuzzer
 
 package cache
@@ -6,7 +7,7 @@ import (
 	"sync"
 
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/prysmaticlabs/prysm/beacon-chain/state"
+	"github.com/prysmaticlabs/prysm/v2/beacon-chain/state"
 )
 
 // FakeBalanceCache is a fake struct with 1 LRU cache for looking up balance by epoch.
